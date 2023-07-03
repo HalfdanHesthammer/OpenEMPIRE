@@ -5,11 +5,11 @@ USE_TEMP_DIR : True #
 temp_dir : './'
 version : 'europe_v51'
 Horizon : 2060
-NoOfScenarios : 5
-lengthRegSeason : 168
+NoOfScenarios : 3
+lengthRegSeason : 1
 discountrate : 0.05
 WACC : 0.05
-solver : "Xpress" # "Gurobi"  # #"CPLEX"
+solver : "GLPK" # "Gurobi"  # #"CPLEX"
 scenariogeneration : True #False
 fix_sample : False #True
 EMISSION_CAP : True #False
